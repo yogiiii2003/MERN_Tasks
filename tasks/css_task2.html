@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS task2</title>
+</head>
+<style>
+    ul#vertical {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #b5edf1;
+    }
+
+    .ver a {
+        display: block;
+        color: #2151c9;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    .ver a:hover {
+        background-color: #efb358;
+        color: white;
+    }
+
+    /* horizontal navbar  */
+    ul#horizontal {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #bbb3b3;
+    }
+
+    .hor {
+        float: left;
+    }
+
+    .hor a {
+        display: block;
+        color: rgb(63, 27, 178);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .hor a:hover {
+        background-color: #767676;
+        color: white;
+    }
+
+    .hor {
+        border-right: 1px solid #3e23c5;
+    }
+</style>
+
+<body>
+    <!-- vertical navigation bar  -->
+    <h2>Vertical navbar</h2>
+    <ul id="vertical">
+        <li class="ver"><a href="#">Home</a></li>
+        <li class="ver"><a href="#">Java</a></li>
+        <li class="ver"><a href="#">CSS</a></li>
+        <li class="ver"><a href="#">HTML</a></li>
+        <li class="ver"><a href="#">Bootstrap</a></li>
+    </ul>
+    <!-- horizontal navigation bar  -->
+    <h2>horizontal navbar</h2>
+    <ul id="horizontal">
+        <li class="hor"><a href="#">Home</a></li>
+        <li class="hor"><a href="#">Java</a></li>
+        <li class="hor"><a href="#">HTML</a></li>
+        <li class="hor"><a href="#">CSS</a></li>
+    </ul>
+</body>
+
+</html>
